@@ -20,7 +20,7 @@
     "lint": "eslint -f unix .",
     "test": "mocha -r @babel/register -R spec",
     "run-test": "mocha -r @babel/register ",
-    "build": "rimraf dist && mkdir dist && babel index.js -d dist && babel lib -d dist/lib",
+    "build": "rimraf dist && mkdir dist && babel index.js -d dist",
     "prepublish": "run-s lint test build"
   },
   "main": "./dist/index.js",
