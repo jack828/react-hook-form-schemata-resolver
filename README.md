@@ -5,8 +5,8 @@ Custom resolver to use [Schemata](https://github.com/serby/schemata) with [react
 ## Installation
 
 ```
-$ npm install validity-validator-template
-$ yarn add validity-validator-template
+$ npm install react-hook-form-schemata-resolver
+$ yarn add react-hook-form-schemata-resolver
 ```
 
 ## API
